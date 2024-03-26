@@ -1,0 +1,67 @@
+{
+  "employee": [
+    {
+      "name": "PQR",
+      "salary": "3323",
+      "employeeType": null,
+      "type": "manager",
+      "doj": "2024-01-01",
+      "id": 1710775161890,
+      "parentId": ""
+    },
+    {
+      "type": "manager",
+      "id": 1710775224136,
+      "name": "abcds",
+      "employeeType": null,
+      "salary": "8734834",
+      "parentId": 1710775161890,
+      "doj": "0433-03-31"
+    },
+    {
+      "id": 1710781986179,
+      "type": "employee",
+      "parentId": "",
+      "name": "new",
+      "doj": "2024-01-01",
+      "employeeType": "employee",
+      "salary": "3232"
+    },
+    {
+      "id": 1710782062772,
+      "type": "employee",
+      "parentId": "",
+      "name": "new-ancd",
+      "doj": "2024-01-01",
+      "employeeType": "employee",
+      "salary": "2323"
+    },
+    {
+      "id": 1710782384795,
+      "type": "manager",
+      "parentId": "",
+      "name": "a",
+      "doj": "2024-01-01",
+      "employeeType": null,
+      "salary": "1212"
+    },
+    {
+      "name": "AAPPI",
+      "salary": "11",
+      "employeeType": null,
+      "type": "manager",
+      "doj": "2024-12-03",
+      "id": 1710782424614,
+      "parentId": "1710782384795"
+    },
+    {
+      "name": "AAPP",
+      "salary": "11",
+      "employeeType": null,
+      "type": "manager",
+      "doj": "2004-04-04",
+      "id": 1710782452737,
+      "parentId": "1710782424614"
+    }
+  ]
+}

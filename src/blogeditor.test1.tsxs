@@ -1,0 +1,46 @@
+// import React from 'react';
+// import { render } from '@testing-library/react';
+// import MyComponent from '.';
+
+// describe('MyComponent', () => {
+//   it('renders correctly when isActive is true', () => {
+//     const { container } = render(<MyComponent isActive={true} />);
+//     const div = container.querySelector('.active');
+//     expect(div).toBeInTheDocument();
+//   });
+
+//   it('does not render when isActive is false', () => {
+//     const { container } = render(<MyComponent isActive={false} />);
+//     const div = container.querySelector('.active');
+//     expect(div).not.toBeInTheDocument();
+//   });
+
+//   it('renders children when provided', () => {
+//     const { container } = render(
+//       <MyComponent isActive={true}>
+//         <span>Child Element</span>
+//       </MyComponent>
+//     );
+//     const span = container.querySelector('span');
+//     expect(span).toBeInTheDocument();
+//     expect(span?.textContent).toBe('Child Element');
+//   });
+
+//   it('applies custom className when provided', () => {
+//     const { container } = render(
+//       <MyComponent isActive={true} className="custom-class">
+//         <span>Child Element</span>
+//       </MyComponent>
+//     );
+//     const div = container.querySelector('.custom-class');
+//     expect(div).toBeInTheDocument();
+//   });
+
+//   it('calls onClick callback when clicked', () => {
+//     const onClickMock = jest.fn();
+//     const { container } = render(<MyComponent isActive={true} onClick={onClickMock} />);
+//     const div = container.querySelector('.active');
+//     div?.click();
+//     expect(onClickMock).toHaveBeenCalled();
+//   });
+// });
